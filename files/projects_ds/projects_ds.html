@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Farruh Kushnazarov" />
+  <meta name="dcterms.date" content="2020-08-08" />
+  <title>Projects</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="projects_DS_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="projects_DS_files/reveal.js-3.3.0.1/css/theme/league.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="../input/styles.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Projects</h1>
+    <h2 class="author">Farruh Kushnazarov</h2>
+    <h3 class="date">08 August 2020</h3>
+</section>
+
+<section id="basic-information" class="slide level2">
+<h2>Basic Information</h2>
+<table class="custom_table", style="border: 0px solid transparent;">
+  <tr>
+   <td style="vertical-align: middle">  Name
+                                        <br>
+                                        <br>
+                                        <br>Contacts
+   </td><td style="vertical-align: middle "> Kushnazarov Farruh 
+                                        <br> 法如赫 
+                                        <br>
+                                        <br> 173-2116-0407 
+                                        <br> k.farruh@bk.ru 
+   </td><td style="text-align:center" colspan="2"> <img src="../input/img/cropped.jpg" height="180px" width="160px" border="1px"> 
+   </td>
+  </tr><tr>
+   <td> Major 
+   </td><td colspan="3"> Mathematical modeling, numerical calculation and coordination of computer programs 
+   </td>
+  </tr><tr>
+   <td> Highest Education 
+   </td><td colspan="3"> Ph.D. from St.Petersburg National Alexander I Emperor Transportation University 
+   </td>
+  </tr><tr>
+   <td> Languages
+   </td><td> English
+   </td><td> Russian
+   </td><td> Chinese
+  </tr><tr>
+   <td> 
+   </td><td> Excellent
+   </td><td> Native speaker
+   </td><td> HSK2 (elementary) 
+   </td>
+  </tr>
+</table>
+</section>
+<section><section id="projects-related-to-nlp" class="title-slide slide level1"><h1>Projects Related to NLP</h1></section><section id="speech-accent-detection" class="slide level2">
+<h2>Speech Accent Detection</h2>
+<ul>
+<li><strong>Description</strong>: Everyone who speaks a language, speaks it with an accent. This project define accent for english language speakers</li>
+<li><strong>Result</strong>: Created and tested the Speech Accent Classification system for native and non-native speakers, with recall 99%</li>
+<li><strong>Link</strong>: <a href="https://github.com/speech-accent-detection" class="uri">https://github.com/speech-accent-detection</a></li>
+</ul>
+</section><section id="asr---automatic-speech-recognition" class="slide level2">
+<h2>asr - automatic speech recognition</h2>
+<ul>
+<li><strong>Description</strong>: Implemented and retrained Mozilla DeepSpeech library for Automatic Speech Recognition. Mozilla ASR is an open source Speech-To-Text engine, using a model trained by machine learning techniques based on Baidu’s Deep Speech research paper.</li>
+<li><strong>Result</strong>: Created and tested the ASR system with for British accent 82% and American accent 86% accuracy.</li>
+</ul>
+</section><section id="text-classification-project" class="slide level2">
+<h2>Text classification project</h2>
+<ul>
+<li><strong>Goal</strong>: Classified to 10 different topics.</li>
+<li><strong>Data sourses</strong>:
+<ul>
+<li>Title: 5-10 words</li>
+<li>Description: 20-50 words</li>
+<li>Text1: 200-400 words</li>
+<li>Text2: 600-1500 words</li>
+</ul></li>
+<li><strong>Method</strong>: LDA</li>
+<li><strong>Result</strong>: 10 topics and 10 subtopics. <br>Accuracy 87%</li>
+</ul>
+</section></section>
+<section><section id="projects-related-to-customer-lifecycle" class="title-slide slide level1"><h1>Projects Related to Customer Lifecycle</h1></section><section id="intro" class="slide level2">
+<h2>Intro</h2>
+<p>Based on these five stages, appropriate projects to increase and retain customers.</p>
+<p>The customer lifecycle includes 5 below stages:</p>
+<ol type="1">
+<li>Reach — claim future customers’ attention;</li>
+<li>Acquisition — bring them into a sphere of influence;</li>
+<li>Conversion — turn them into registered instead of paying customers;</li>
+<li>Retention — keep them as customers;</li>
+<li>Loyalty/advocacy—turn them into company advocate</li>
+</ol>
+<p><a href="http://mts.intechopen.com/articles/show/title/consumer-life-cycle-and-profiling-a-data-mining-perspective" class="uri">http://mts.intechopen.com/articles/show/title/consumer-life-cycle-and-profiling-a-data-mining-perspective</a></p>
+</section><section id="reach-traffic-profile-system" class="slide level2">
+<h2>Reach: Traffic Profile System</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:right;">
+No
+</th>
+<th style="text-align:left;">
+Goals
+</th>
+<th style="text-align:left;">
+Data Sources
+</th>
+<th style="text-align:left;">
+Methods
+</th>
+<th style="text-align:left;">
+Results
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+Rank leads and save time for sales team
+</td>
+<td style="text-align:left;">
+Information from browser of customers
+</td>
+<td style="text-align:left;vertical-align: middle !important;" rowspan="3">
+Markov chain Decision tree
+</td>
+<td style="text-align:left;">
+Saved time of sales person by 23%
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:left;">
+Increase turnover rate
+</td>
+<td style="text-align:left;">
+Media information
+</td>
+<td style="text-align:left;">
+Increased turnover rate to 25%
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+Detect created leads by robots
+</td>
+<td style="text-align:left;">
+Session page information
+</td>
+<td style="text-align:left;">
+Decreased marketing expenses by 14%
+</td>
+</tr>
+</tbody>
+</table>
+</section><section id="acquisition---reactivated-leads-points-system" class="slide level2">
+<h2>Acquisition - Reactivated Leads Points System</h2>
+<ul>
+<li><strong>Goal</strong>: Improve overall sign-up rate of reactivated leads.</li>
+<li><strong>Data sourses</strong>: landing page data, device, location, estimated age, landed time etc.</li>
+<li><strong>Method</strong>: Random forest</li>
+<li><strong>Result</strong>: Increased sign-up rate by two times.</li>
+</ul>
+</section><section id="conversion---customer-renewal" class="slide level2">
+<h2>Conversion - Customer Renewal</h2>
+<ul>
+<li><strong>Goals</strong>: Improve overall renewal rate; Summarise main factors; Esitmate quantity and duration of phone calls during contract life time.</li>
+<li><strong>Data sourses</strong>: class data; teacher and student data.</li>
+<li><strong>Method</strong>: Random forest (Boosting)</li>
+<li><strong>Result</strong>: Increased renew rate up to 30%.</li>
+</ul>
+</section><section id="retention---customer-churn-karma" class="slide level2">
+<h2>Retention - Customer Churn (Karma)</h2>
+<ul>
+<li><strong>Goal</strong>: Decrease client refund rate; Create possible refund lists with estimated rate.</li>
+<li><strong>Data sources</strong>: Class data, teacher and student data.</li>
+<li><strong>Methods</strong>: Extra-Trees.</li>
+<li><strong>Result</strong>: Decreased refund rate to 27%.</li>
+</ul>
+</section></section>
+<section><section id="projects-related-to-smart-city" class="title-slide slide level1"><h1>Projects Related to Smart City</h1></section><section id="intro-1" class="slide level2">
+<h2>Intro</h2>
+<p>I worked for Domus Sapiens and programmer/data analytic/project manager. Did the design and programming job of the smart systems in the intelligent building, and one individual completes a complete set of processes. The smart buildings/city I’ve done dozen large and small, concentrated in Moscow and St Petersburg. One of the most famous and complex cases is the development of an intelligent system in Moscow City.</p>
+<p><a href="http://http://domussapiens.ru/" class="uri">http://http://domussapiens.ru/</a></p>
+</section><section id="moscow-city" class="slide level2">
+<h2>Moscow City</h2>
+<ul>
+<li>Moscow City Project, which is made by 5 different office building groups with different requirements to smart system &amp; linking.</li>
+<li>Companies main job is to make computer programming of center control &amp; night light adjustment.</li>
+<li>More then 800 m2</li>
+<li>15000 signals from different controllers</li>
+</ul>
+<p><a target="_blank" href="../input/img/smart_city/moscow_city/ms1.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/moscow_city/ms1.jpg" alt="Moscow City" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/moscow_city/ms2.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/moscow_city/ms2.jpg" alt="Moscow City" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/moscow_city/ms3.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/moscow_city/ms3.jpg" alt="Moscow City" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/moscow_city/ms4.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/moscow_city/ms4.jpg" alt="Moscow City" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/moscow_city/ms5.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/moscow_city/ms5.jpg" alt="Moscow City" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/moscow_city/ms6.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/moscow_city/ms6.jpg" alt="Moscow City" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/moscow_city/ms7.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/moscow_city/ms7.jpg" alt="Moscow City" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/moscow_city/ms8.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/moscow_city/ms8.jpg" alt="Moscow City" style="height:100px"> </a></p>
+</section><section id="smart-old-style-apartment" class="slide level2">
+<h2>Smart old style apartment</h2>
+<ul>
+<li>Automation of lighting, curtains, ventilation,</li>
+<li>Leakage monitoring</li>
+<li>The control of home theater from tablet and computer</li>
+<li>Seamless Wi-Fi network</li>
+</ul>
+<p><a target="_blank" href="../input/img/smart_city/old_style_appartment/pobedy1.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/old_style_appartment/pobedy1.jpg" alt="Smart old style apartment" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/old_style_appartment/pobedy2.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/old_style_appartment/pobedy2.jpg" alt="Smart old style apartment" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/old_style_appartment/pobedy3.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/old_style_appartment/pobedy3.jpg" alt="Smart old style apartment" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/old_style_appartment/pobedy4.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/old_style_appartment/pobedy4.jpg" alt="Smart old style apartment" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/old_style_appartment/pobedy5.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/old_style_appartment/pobedy5.jpg" alt="Smart old style apartment" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/old_style_appartment/pobedy6.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/old_style_appartment/pobedy6.jpg" alt="Smart old style apartment" style="height:100px"> </a></p>
+</section><section id="smart-penthouse" class="slide level2">
+<h2>Smart Penthouse</h2>
+<ul>
+<li>Controlling systems: lighting, climate, media systems and access control without pushing a button.</li>
+<li>Media systems should works with voice</li>
+<li>Lighting and climate with radio signal (on body or on mobile phone)</li>
+<li>Smart system work in KNX protocol, the radio work on Modbus and voice control protocol was Fast Ethernet.</li>
+<li>Connected all subsystems in one system with two controller AMX and Crestron</li>
+</ul>
+<p><a target="_blank" href="../input/img/smart_city/penthouse/korabli2.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/penthouse/korabli2.jpg" alt="Smart Penthouse" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/penthouse/korabli3.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/penthouse/korabli3.jpg" alt="Smart Penthouse" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/penthouse/korabli4.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/penthouse/korabli4.jpg" alt="Smart Penthouse" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/penthouse/korabli5.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/penthouse/korabli5.jpg" alt="Smart Penthouse" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/penthouse/korabli6.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/penthouse/korabli6.jpg" alt="Smart Penthouse" style="height:100px"> </a></p>
+</section><section id="smart-villa" class="slide level2">
+<h2>Smart Villa</h2>
+<ul>
+<li>The main task, which stood in front of our company - modernization of the existing smart home system</li>
+<li>Upgraded equipment and expand the functions of the system</li>
+<li>Installed portable AMX touch panels and iPad system management</li>
+<li>Integrated smart home irrigation system and curtains drives by a radio channel</li>
+<li>This project was marked by the award of AMX in 2011</li>
+</ul>
+<p><a target="_blank" href="../input/img/smart_city/villa/repino1.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/villa/repino1.jpg" alt="Smart Villa" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/villa/repino2.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/villa/repino2.jpg" alt="Smart Villa" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/villa/repino3.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/villa/repino3.jpg" alt="Smart Villa" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/villa/repino4.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/villa/repino4.jpg" alt="Smart Villa" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/villa/repino5.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/villa/repino5.jpg" alt="Smart Villa" style="height:100px"> </a> <a target="_blank" href="../input/img/smart_city/villa/repino6.jpg"> <img class="image_thumbnail" src="../input/img/smart_city/villa/repino6.jpg" alt="Smart Villa" style="height:100px"> </a></p>
+</section></section>
+    </div>
+  </div>
+
+  <script src="projects_DS_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="projects_DS_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display the page number of the current slide
+        slideNumber: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: true,
+        // Opens links in an iframe preview overlay
+        previewLinks: true,
+        // Transition style
+        transition: 'convex', // none/fade/slide/convex/concave/zoom
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'zoom', // none/fade/slide/convex/concave/zoom
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'projects_DS_files/reveal.js-3.3.0.1/plugin/search/search.js', async: true },
+          { src: 'projects_DS_files/reveal.js-3.3.0.1/plugin/zoom-js/zoom.js', async: true },
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "projects_DS_files/mathjax-local/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>

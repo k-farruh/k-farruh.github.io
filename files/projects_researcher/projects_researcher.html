@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Farruh Kushnazarov" />
+  <meta name="dcterms.date" content="2020-08-09" />
+  <title>Research work</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="projects_researcher_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="projects_researcher_files/reveal.js-3.3.0.1/css/theme/league.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="../input/styles.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Research work</h1>
+    <h2 class="author">Farruh Kushnazarov</h2>
+    <h3 class="date">09 August 2020</h3>
+</section>
+
+<section><section id="about-kushnazarov" class="title-slide slide level1"><h1>About Kushnazarov</h1></section><section id="basic-information" class="slide level2">
+<h2>Basic Information</h2>
+<table class="custom_table", style="border: 0px solid transparent;">
+  <tr>
+   <td style="vertical-align: middle">  Name
+                                        <br>
+                                        <br>
+                                        <br>Contacts
+   </td><td style="vertical-align: middle "> Kushnazarov Farruh 
+                                        <br> 法如赫 
+                                        <br>
+                                        <br> 173-2116-0407 
+                                        <br> k.farruh@bk.ru 
+   </td><td style="text-align:center" colspan="2"> <img src="../input/img/cropped.jpg" height="180px" width="160px" border="1px"> 
+   </td>
+  </tr><tr>
+   <td> Major 
+   </td><td colspan="3"> Mathematical modeling, numerical calculation and coordination of computer programs 
+   </td>
+  </tr><tr>
+   <td> Highest Education 
+   </td><td colspan="3"> Ph.D. from St.Petersburg National Alexander I Emperor Transportation University 
+   </td>
+  </tr><tr>
+   <td> Languages
+   </td><td> English
+   </td><td> Russian
+   </td><td> Chinese
+  </tr><tr>
+   <td> 
+   </td><td> Excellent
+   </td><td> Native speaker
+   </td><td> HSK2 (elementary) 
+   </td>
+  </tr>
+</table>
+</section><section id="bachelor-and-master" class="slide level2">
+<h2>Bachelor and Master</h2>
+<p>Kushnazarov Farruh’s favorite subject from freshman year was mathematics and communication network system. Because of this, his final thesises for bachelor and master degree were about the communication network system. After successfully achieved master degree with a high score, he got an offer from the university to continue researching on communication network. Feeling the needs for practical experiences, he started to work as an assistant professor and programmer for two years, during which he collected remarkable experiences and data for further researches.</p>
+</section><section id="phd" class="slide level2">
+<h2>PhD</h2>
+<p>Finally in 2012 he back to university to apply Ph.D. and work with a well-acknowledged professor in communication network and virtualization fields. As a researcher he not only considered in theoretical part but worked with several companies for applications as well. Moreover each result was provided for implementations on data-centers, smart-city and other projects. In Russia, especially Saint-Petersburg researcher Kushnazarov Farruh’s papers were frequently cited and discussed in dozens of conferences by other researchers. Kushnazarov Farruh has given 144 hours lectures on communication network system for students and published two textbooks as the first author.</p>
+</section><section id="nowadays" class="slide level2">
+<h2>Nowadays</h2>
+<ul>
+<li>In 2016 he moved to Shanghai for working as a data scientist in a well-known online education company. He is working on different machine learning and deep learning projects. His dozens of projects brought large benefits to the company.</li>
+<li>Even with heavy-loaded work, every year, he publishes scientific articles on artificial intelligence and communication network fields in international conference, including the international academic platforms such as IEEE, ACM and others.</li>
+</ul>
+</section></section>
+<section><section id="goal-and-mission-of-dll-protocols" class="title-slide slide level1"><h1>Goal and Mission of DLL Protocols</h1></section><section id="research-goal" class="slide level2">
+<h2>Research Goal</h2>
+<p>Based on the variation of the basic parameters of the protocols and transmission procedures to develop and evaluate the performance of communication protocols that provide guaranteed data delivered over communication channels with noise.</p>
+</section><section id="research-missions" class="slide level2">
+<h2>Research Missions</h2>
+<ul>
+<li>Analyze the methods of FEC (Forward Error Correction) for detecting errors and recovering information in communication channels with noise, taking into account the determination of the main factors.</li>
+<li>Define the impact of noise on network performance on the different ARQ (Automatic Repeat Request) modes.</li>
+<li>Develop a mathematical model of the proposed method for evaluating performance, taking into account the peculiarities of computational algorithms for implementation of FEC for different ARQ modes to increase Shannon capacity.</li>
+<li>Develop recommendations for data link layer protocol’s settings to achieve a given level of performance.</li>
+</ul>
+</section></section>
+<section><section id="scientific-novelty" class="title-slide slide level1"><h1>Scientific Novelty</h1></section><section id="the-following-results-are-obtained-during-the-research-dll-data-link-layer-protocols-which-are-brand-new" class="slide level2">
+<h2>The following results are obtained during the research DLL (Data Link Layer) Protocols, which are brand new:</h2>
+<ul>
+<li>A method is proposed for evaluating the performance of DLL protocols operating in information and telecommunication networks with noise. This method differs from the known methods by taking into account the level of noise in data transmission channels, as well as the specifics of the organization of data transmission modes.</li>
+<li>A complex of programs has been created on C/C++ and Matlab, which confirmed the theoretical results. It is suitable for evaluating the performance parameters of data link protocols.</li>
+</ul>
+</section></section>
+<section><section id="encoder-and-decoder" class="title-slide slide level1"><h1>Encoder and Decoder</h1></section><section id="implemented-convolutional-encoder-and-decoder" class="slide level2">
+<h2>Implemented Convolutional Encoder and Decoder</h2>
+<p>To experimentally determine the operability of the Viterbi decoder with offered method using the Matlab environment (Simulink, Communication Toolbox package), a communication channel model was built. The parameters of the Viterbi decoder are taken as follows: R = 1/2, d = 7, L = 19. The input data stream in the form of a sequence of pseudorandom numbers, the frame size is 1120 bytes.</p>
+<p align="center">
+<figure>
+<a target="_blank" href="../input/img/research/viterbi.png"> <img class="image_thumbnail" src="../input/img/research/viterbi.png" style="height:130px"> </a>
+<figcaption>
+Fig.1 - Simulation Viterbi Decoder on Mathlab: Communication Toolbox
+</figcaption>
+</figure>
+</p>
+</section></section>
+<section><section id="result-of-the-research" class="title-slide slide level1"><h1>Result of the Research</h1></section><section id="a-methodology-has-been-developed-for-calculating-the-real-data-transfer-rate-for-the-arq-methods-stop-and-wait-go-back-n-selective-repeat-based-on-the-frame-sizes-the-number-of-frames-in-the-window-and-the-level-of-noise-in-the-communication-channels.-recommendations-are-given-on-setting-up-a-timer-for-various-data-transfer-methods." class="slide level2">
+<h2>A methodology has been developed for calculating the real data transfer rate for the ARQ methods Stop-and-Wait, Go-Back-N, Selective Repeat based on the frame sizes, the number of frames in the window and the level of noise in the communication channels. Recommendations are given on setting up a timer for various data transfer methods.</h2>
+</section><section id="a-simulation-computer-modeling-of-data-transfer-processes-using-crc-codes-in-two-environments-cc-and-matlab-was-carried-out-under-conditions-of-varying-values-of-the-noise-level-in-the-data-transmission-channel.-the-necessity-of-choosing-the-type-of-standardized-generating-polynomial-which-can-reduce-the-probability-of-failure-to-detect-errors-in-frames-is-substantiated." class="slide level2">
+<h2>A simulation computer modeling of data transfer processes using CRC codes in two environments (C/C ++ and Matlab) was carried out under conditions of varying values of the noise level in the data transmission channel. The necessity of choosing the type of standardized generating polynomial, which can reduce the probability of failure to detect errors in frames, is substantiated.</h2>
+</section><section id="simulated-data-transfer-process-using-convolutional-coderdecoder-to-determine-the-probability-of-the-incorrect-decoding-of-received-data-is-carried-out.-the-expediency-of-using-the-technique-of-interleaving-symbols-to-reduce-the-level-of-this-parameter-is-proven." class="slide level2">
+<h2>Simulated data transfer process using convolutional coder/decoder to determine the probability of the incorrect decoding of received data is carried out. The expediency of using the technique of interleaving symbols to reduce the level of this parameter is proven.</h2>
+</section><section id="the-results-of-simulations-and-implement-models-on-the-emc2-data-center-and-smartcity-projects-of-moscow-are-compared.-it-is-shown-that-their-deviation-does-not-exceed-the-boundaries-of-11-which-confirms-the-consistency-of-the-research." class="slide level2">
+<h2>The results of simulations and implement models on the EMC2 data-center and SmartCity projects of Moscow are compared. It is shown that their deviation does not exceed the boundaries of 11%, which confirms the consistency of the research.</h2>
+</section></section>
+<section><section id="implementation-of-research-results-and-major-publications" class="title-slide slide level1"><h1>Implementation of Research Results and Major Publications</h1></section><section id="implementation-of-research-results" class="slide level2">
+<h2>Implementation of Research Results</h2>
+<ul>
+<li><p>Implemented at the company L-Cube LLC in order to optimize the performance of the departmental network;</p></li>
+<li><p>Implemented at the company Domus Sapiens LLC to improve the quality of data transfer in wireless network;</p></li>
+<li><p>The tested result on the EMC2 data-center.</p></li>
+</ul>
+<p align="center">
+<figure>
+<a target="_blank" href="../input/img/research/l_cube.jpg"> <img class="image_thumbnail" src="../input/img/research/l_cube.jpg" alt="EMC2 data-center" style="height:150px"> </a> <a target="_blank" href="../input/img/research/domus_sapiens.jpg"> <img class="image_thumbnail" src="../input/img/research/domus_sapiens.jpg" style="height:150px"> </a> <a target="_blank" href="../input/img/research/emc_dell.png"> <img class="image_thumbnail" src="../input/img/research/emc_dell.png" style="height:150px"> </a>
+<figcaption>
+Fig.2 - Implementation Certificates
+</figcaption>
+</figure>
+</p>
+</section><section id="major-publications-during-2013-2020" class="slide level2">
+<h2>Major Publications: During 2013 – 2020:</h2>
+<ul>
+<li>published 13 articles;
+<ul>
+<li>Google Scholar Page: <a href="https://scholar.google.com/citations?hl=en&amp;user=4n37sesAAAAJ" class="uri">https://scholar.google.com/citations?hl=en&amp;user=4n37sesAAAAJ</a></li>
+</ul></li>
+<li>two textbooks;</li>
+<li>a book on customer lifecycle; and</li>
+<li>obtained two patents.</li>
+</ul>
+<p align="center">
+<figure align="center">
+<a target="_blank" href="../input/img/research/IT_patents/osi_protocol.jpg"> <img class="image_thumbnail" src="../input/img/research/IT_patents/osi_protocol.jpg" style="height:170px"> </a> <a target="_blank" href="../input/img/research/IT_patents/dust.jpg"> <img class="image_thumbnail" src="../input/img/research/IT_patents/dust.jpg" style="height:170px"> </a>
+<figcaption>
+Fig.3 - Patents
+</figcaption>
+</figure>
+</p>
+</section></section>
+<section><section id="invitations-for-further-researches" class="title-slide slide level1"><h1>Invitations for Further Researches</h1></section><section id="section" class="slide level2">
+<h2></h2>
+<p align="center">
+<figure align="center">
+<a target="_blank" href="../input/img/research/recomendations/recomendations_1.jpg"> <img class="image_thumbnail" src="../input/img/research/recomendations/recomendations_1.jpg" style="height:300px"> </a> <a target="_blank" href="../input/img/research/recomendations/recomendations_2.jpg"> <img class="image_thumbnail" src="../input/img/research/recomendations/recomendations_2.jpg" style="height:300px"> </a> <a target="_blank" href="../input/img/research/recomendations/recomendations_3.jpg"> <img class="image_thumbnail" src="../input/img/research/recomendations/recomendations_3.jpg" style="height:300px"> </a> <a target="_blank" href="../input/img/research/recomendations/recomendations_4.jpg"> <img class="image_thumbnail" src="../input/img/research/recomendations/recomendations_4.jpg" style="height:300px"> </a>
+<figcaption>
+Fig.4 - Recomendation Letters
+</figcaption>
+</figure>
+</p>
+</section></section>
+<section><section id="future-plan" class="title-slide slide level1"><h1>Future Plan</h1></section><section id="the-main-expected-results-of-the-research-can-be-summarized-as-follows" class="slide level2">
+<h2>The main expected results of the research can be summarized as follows:</h2>
+<ol type="1">
+<li>Analysis of existing methods for increasing the throughput protocols showed their limitations in taking into account the presence of the noise in the communication channel and not implemented AI to reach the required throughput.</li>
+<li>To define significant factors, which impact the throughput of the cellular network.</li>
+<li>The method decreases the latency by incorporating AI to HARQ for different modes, based on the historical data.</li>
+</ol>
+</section></section>
+    </div>
+  </div>
+
+  <script src="projects_researcher_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="projects_researcher_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display the page number of the current slide
+        slideNumber: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: true,
+        // Opens links in an iframe preview overlay
+        previewLinks: true,
+        // Transition style
+        transition: 'convex', // none/fade/slide/convex/concave/zoom
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'zoom', // none/fade/slide/convex/concave/zoom
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'projects_researcher_files/reveal.js-3.3.0.1/plugin/search/search.js', async: true },
+          { src: 'projects_researcher_files/reveal.js-3.3.0.1/plugin/zoom-js/zoom.js', async: true },
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "projects_researcher_files/mathjax-local/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>
