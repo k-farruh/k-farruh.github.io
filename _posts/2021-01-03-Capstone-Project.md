@@ -8,7 +8,9 @@ tags:
   - category2
 ---
 
-![](https://cdn-images-1.medium.com/max/800/1*3zbPopZdR6-WR8yvw5RmEQ.jpeg)### Capstone Project — The Battle of Neighborhoods
+![](https://cdn-images-1.medium.com/max/800/1*3zbPopZdR6-WR8yvw5RmEQ.jpeg)
+
+### Capstone Project — The Battle of Neighborhoods
 
 ### Applied Data Science Capstone
 
