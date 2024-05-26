@@ -3,7 +3,7 @@ title: Container Number Recognition
 date: '2019-02-06'
 collection: portfolio
 permalink: /posts/container_number_recognition/
-excerpt: "Developed an intelligent system for reading and identifying ISO 6346 container codes in logistics ports, enhancing access control and efficiency.<br/><img src='/images/portfolio/cn1.jpg'>"
+excerpt: "Developed an intelligent system for reading and identifying ISO 6346 container codes in logistics ports, enhancing access control and efficiency.<br/><img src='/images/portfolio/cn1.jpg' width='500' height='300'>"
 collection: portfolio
 ---
 

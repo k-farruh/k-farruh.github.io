@@ -5,7 +5,7 @@ external_link: "https://l-cube.ru/"
 image:
   caption: "L-Cube LLC logo"
   focal_point: Smart
-summary: Implemented a solution at L-Cube LLC to optimize the performance of their departmental network, enhancing communication efficiency and reliability.<img src='/images/portfolio/l_cube_logo.png'>
+summary: Implemented a solution at L-Cube LLC to optimize the performance of their departmental network, enhancing communication efficiency and reliability.<img src='/images/portfolio/l_cube_logo.png' width='500' height='300'>
 collection: portfolio
 permalink: /portfolio/l_cube/
 tags:
@@ -13,7 +13,7 @@ tags:
 - Network Optimization
 ---
 
-![L-Cube LLC](../images/portfolio/l_cube_logo.png)
+![L-Cube LLC](../../images/portfolio/l_cube_logo.png)
 
 ## Summary
 Implemented a comprehensive solution at **L-Cube LLC** aimed at optimizing the performance of their departmental network. This project involved enhancing communication protocols, reducing latency, and improving overall network reliability and efficiency.
