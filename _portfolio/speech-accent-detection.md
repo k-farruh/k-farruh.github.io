@@ -3,13 +3,13 @@ title: Speech Accent Detection
 author: Farruh Kushnazarov
 date: '2020-08-06'
 external_link: https://github.com/k-farruh/speech-accent-detection
-summary: This project aims to classify the accents of English language speakers using audio recordings. By leveraging machine learning models such as FFNN, CNN, and LSTM, the system can accurately identify accents, aiding in language learning and accent improvement.<br/><img src='/images/portfolio/speech_accent_detection.jpeg' width='500' height='300'>
+summary: This project aims to classify the accents of English language speakers using audio recordings. By leveraging machine learning models such as FFNN, CNN, and LSTM, the system can accurately identify accents, aiding in language learning and accent improvement.<br/><img src='/images/portfolio/speech_vovels.jpeg' width='400'>
 collection: portfolio
 permalink: /portfolio/speech-accent-detection/
 tags: [Machine Learning, Accent Detection]
 ---
 
-![Speech Accent Detection](../../images/portfolio/speech_accent_detection.jpeg)
+![Speech Accent Detection](../../images/portfolio/speech_vovels.jpeg)
 
 ## Summary
 The **Speech Accent Detection** project focuses on classifying the accents of English language speakers based on audio recordings. Using machine learning models such as FFNN (Feed-Forward Neural Network), CNN (Convolution Neural Network), and LSTM (Long Short-Term Memory), the system accurately identifies accents. This capability can assist English language learners in understanding their accents and improving their pronunciation.

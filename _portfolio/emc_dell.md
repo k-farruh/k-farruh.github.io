@@ -3,7 +3,7 @@ title: Data-Center Network Optimizing
 date: "2020-08-03T00:00:00Z"
 collection: portfolio
 permalink: /portfolio/emc_dell/
-summary: Created a model for estimating the performance of communication protocols for channels with noise and simulated it using Matlab Communication Toolbox. The simulation results and implemented models on the EMC 2 data center were compared, showing deviations within 11%, confirming the research's consistency.<img src='/images/portfolio/emc_dell.png' width='500' height='300'>
+summary: Created a model for estimating the performance of communication protocols for channels with noise and simulated it using Matlab Communication Toolbox. The simulation results and implemented models on the EMC 2 data center were compared, showing deviations within 11%, confirming the research's consistency.<img src='/images/portfolio/emc_dell.png' width='400'>
 tags:
 - Communication Network
 ---

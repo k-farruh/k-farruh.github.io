@@ -5,7 +5,7 @@ external_link: "https://l-cube.ru/"
 image:
   caption: "L-Cube LLC logo"
   focal_point: Smart
-summary: Implemented a solution at L-Cube LLC to optimize the performance of their departmental network, enhancing communication efficiency and reliability.<img src='/images/portfolio/l_cube_logo.png' width='500' height='300'>
+summary: Implemented a solution at L-Cube LLC to optimize the performance of their departmental network, enhancing communication efficiency and reliability.<img src='/images/portfolio/l_cube_logo.png' width='400'>
 collection: portfolio
 permalink: /portfolio/l_cube/
 tags:

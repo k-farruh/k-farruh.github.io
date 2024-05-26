@@ -7,7 +7,7 @@ image:
   focal_point: Smart
 collection: portfolio
 permalink: /posts/intellekt_trans/
-summary: Participated as an Organizing Committee member in the Intelligent Rail System Transportation Summit, contributing to the event's organization and discussions on intelligent rail transportation systems.<img src='/images/portfolio/intellect_trans.png' width='500' height='300'>
+summary: Participated as an Organizing Committee member in the Intelligent Rail System Transportation Summit, contributing to the event's organization and discussions on intelligent rail transportation systems.<img src='/images/portfolio/intellect_trans.png' width='400'>
 tags:
 - Conference
 - Intelligent Transportation
