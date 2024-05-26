@@ -11,7 +11,7 @@ image:
   preview_only: true
   width: "300"
   path: /images/portfolio/intellect_trans.png
-summary: Participated as an Organizing Committee member in the Intelligent Rail System Transportation Summit, contributing to the event's organization and discussions on intelligent rail transportation systems.
+excerpt: Participated as an Organizing Committee member in the Intelligent Rail System Transportation Summit, contributing to the event's organization and discussions on intelligent rail transportation systems.
 ---
 
 ![IntellektTrans](../../images/portfolio/intellect_trans.png)

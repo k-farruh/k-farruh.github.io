@@ -7,7 +7,7 @@ image:
   preview_only: true
   width: "300"
   path: /images/portfolio/tengrem.png
-summary: Developed a face recognition system for smart building and parking projects in Xiamen city, China, resulting in the successful implementation of numerous projects.
+excerpt: Developed a face recognition system for smart building and parking projects in Xiamen city, China, resulting in the successful implementation of numerous projects.
 ---
 
 ![Tangren Face Recognition System](../../images/portfolio/tangrem.png)

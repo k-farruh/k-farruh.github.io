@@ -7,7 +7,7 @@ image:
   preview_only: true
   width: "300"
   path: /images/portfolio/cn1.jpg
-summary: "Developed an intelligent system for reading and identifying ISO 6346 container codes in logistics ports, enhancing access control and efficiency.
+excerpt: "Developed an intelligent system for reading and identifying ISO 6346 container codes in logistics ports, enhancing access control and efficiency.
 ---
 
 ![Container Number Recognition](../../images/portfolio/cn1.jpg)
