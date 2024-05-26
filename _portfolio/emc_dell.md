@@ -2,7 +2,6 @@
 title: Data-Center Network Optimizing
 date: "2020-08-03"
 collection: portfolio
-permalink: /portfolio/emc_dell/
 image:
   preview_only: true
   width: "300"

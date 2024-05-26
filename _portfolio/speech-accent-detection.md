@@ -2,7 +2,6 @@
 title: Speech Accent Detection
 date: '2020-08-06'
 collection: portfolio
-permalink: /portfolio/speech-accent-detection/
 image:
   preview_only: true
   width: "300"

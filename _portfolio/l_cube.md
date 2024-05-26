@@ -2,7 +2,6 @@
 title: Computer Network Optimizing
 date: "2016-01-03"
 collection: portfolio
-permalink: /portfolio/l_cube/
 image:
   preview_only: true
   width: "300"

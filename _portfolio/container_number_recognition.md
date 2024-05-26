@@ -2,7 +2,6 @@
 title: Container Number Recognition
 date: '2019-02-06'
 collection: portfolio
-permalink: /posts/container_number_recognition/
 image:
   preview_only: true
   width: "300"

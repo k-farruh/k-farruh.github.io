@@ -1,12 +1,7 @@
 ---
 title: Conference IntellektTrans
 date: "2009-11-03"
-external_link: "files/projects/intellekt_trans/intellect_trans.png"
-image:
-  caption: "IntellektTrans logo"
-  focal_point: Smart
 collection: portfolio
-permalink: /posts/intellekt_trans/
 image:
   preview_only: true
   width: "300"

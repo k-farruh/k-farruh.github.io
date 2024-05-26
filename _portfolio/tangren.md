@@ -2,7 +2,6 @@
 title: Tangren Face Recognition System
 date: '2020-08-06'
 collection: portfolio
-permalink: /portfolio/tangren/
 image:
   preview_only: true
   width: "300"
