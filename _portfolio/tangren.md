@@ -2,10 +2,10 @@
 title: Tangren Face Recognition System
 date: '2020-08-06'
 collection: portfolio
-excerpt: "Developed a face recognition system for smart building and parking projects in Xiamen city, China, resulting in the successful implementation of numerous projects. <br/><img src='/images/portfolio/tengrem.png' width='300'>"
+excerpt: "Developed a face recognition system for smart building and parking projects in Xiamen city, China, resulting in the successful implementation of numerous projects. <br/><img src='/images/portfolio/tengren.png' width='300'>"
 ---
 
-![Tangren Face Recognition System](../../images/portfolio/tangrem.png)
+![Tangren Face Recognition System](../../images/portfolio/tengren.png)
 
 ## Summary
 As an invited expert, I developed a **Face Recognition System** for smart building and parking projects in Xiamen city, China. The system was successfully implemented in dozens of projects, enhancing security and efficiency.
