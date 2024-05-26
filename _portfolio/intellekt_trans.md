@@ -2,7 +2,7 @@
 title: "Conference IntellektTrans"
 date: "2009-11-03"
 collection: portfolio
-excerpt: "Participated as an Organizing Committee member in the Intelligent Rail System Transportation Summit, contributing to the event's organization and discussions on intelligent rail transportation systems.<br/><img src='/images/portfolio/intellect_trans.png' width='300'>""
+excerpt: "Participated as an Organizing Committee member in the Intelligent Rail System Transportation Summit, contributing to the event's organization and discussions on intelligent rail transportation systems. <br/><img src='/images/portfolio/intellect_trans.png' width='300'>"
 ---
 
 ![IntellektTrans](../../images/portfolio/intellect_trans.png)

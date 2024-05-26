@@ -7,15 +7,11 @@ tags:
   - category1
   - category2
 ---
-#Ethical Rules vs AI
-===================
 
+# Ethical Rules vs AI
 Artificial intelligence (AI) has the potential to help solve some of the world’s most intractable international development problems. From…
 
 
-
-
----
 
 ### Ethical Rules vs AI
 
