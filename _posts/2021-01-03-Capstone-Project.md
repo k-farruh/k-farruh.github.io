@@ -8,7 +8,6 @@ tags:
   - category2
 ---
 
-# Capstone Project — The Battle of Neighborhoods
 Applied Data Science Capstone
 
 ---

@@ -8,7 +8,6 @@ tags:
   - category2
 ---
 
-# GenAI Model Optimization: Guide to Fine-Tuning and Quantization
 Artificial Intelligence has transcended from a buzzword to a vital tool in business and personal applications. As the AI field grows, so…
 
 

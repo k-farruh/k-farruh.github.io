@@ -8,8 +8,7 @@ tags:
   - category2
 ---
 
-# Mastering Generative AI: Run Llama 2 Models on Alibaba Cloud’s PAI
-Tags:Generative AI, GenAI, AI, PAI, PAI-EAS, Llama 2, Large Language Model, Artificial Intelligence, Machine Learning Platform For AI
+Alibaba Cloud is a cloud computing provider that offers a wide range of cloud products and services, including Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS)
 
 ### Mastering Generative AI: Run Llama 2 Models on the Alibaba Cloud’s PAI
 

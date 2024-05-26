@@ -8,7 +8,6 @@ tags:
   - category2
 ---
 
-# Deploy Your Own AI Chat Buddy: The Qwen Chat Model Deployment with Hugging Face Guide
 Alright, you tech-savvy human, brace yourself for a thrilling adventure into the land of artificial intelligence! We’re not just dipping…
 
 

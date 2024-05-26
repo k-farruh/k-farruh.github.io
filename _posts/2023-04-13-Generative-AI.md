@@ -7,7 +7,7 @@ tags:
   - category1
   - category2
 ---
-# Generative AI Composer — the Next Level of Stable Diffusion
+
 Generative AI models coupled with relevant text/image data can be used to oeuvre arts, poems, and creative programming codes
 
 ### Generative AI, Composer — the Next Level of Stable Diffusion

@@ -8,8 +8,6 @@ tags:
   - category2
 ---
 
-# Rapid Deployment of AI Painting with WebUI on PAI-EAS using Alibaba Cloud
-
 Artificial Intelligence (AI) Painting or AI Generative Content (AIGC) is a fascinating field within artificial intelligence that focuses on creating visual content using advanced machine learning techniques. These areas of research and development have gained significant attention in recent years as they offer innovative and creative solutions for generating artwork, graphics, and other visual media. One of the foundation models for AIGC is the diffusion model.
 
 

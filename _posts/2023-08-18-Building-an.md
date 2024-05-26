@@ -7,7 +7,7 @@ tags:
   - category1
   - category2
 ---
-# Building an Exciting Journey for Your GenAI Application with Llama 2, AnalyticDB, PAI-EAS, and…
+
 Explore the integration of AnalyticDB for PostgreSQL with large language models on Alibaba Cloud’s PAI platform, empowering businesses…
 
 ### Building an Exciting Journey for Your GenAI Application with Llama 2, AnalyticDB, PAI-EAS, and Alibaba Cloud

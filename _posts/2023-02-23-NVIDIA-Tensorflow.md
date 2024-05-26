@@ -7,13 +7,9 @@ tags:
   - category1
   - category2
 ---
-# NVIDIA-Tensorflow Docker Image on the Alibaba Cloud ECS Part 2
+
 Tensorflow runs in the docker and GPU within docker
 
-
-
-
----
 
 ### NVIDIA-Tensorflow Docker Image on the Alibaba Cloud ECS Part 2
 

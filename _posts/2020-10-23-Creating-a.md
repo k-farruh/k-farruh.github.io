@@ -8,7 +8,6 @@ tags:
   - category2
 ---
 
-# Creating a Data Scientist Team from Scratch
 Intro: what a data scientist is and why 93% of companies need a data scientist
 In the 21st century, IT development is critical for…
 

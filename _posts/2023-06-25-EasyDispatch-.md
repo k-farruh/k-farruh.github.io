@@ -7,7 +7,7 @@ tags:
   - category1
   - category2
 ---
-# EasyDispatch: Using Generative AI and AnalyticDB for Enhanced Delivery Business Operations
+
 Managing a delivery business can be challenging, with many tasks that require constant attention. From managing drivers to tracking…
 
 

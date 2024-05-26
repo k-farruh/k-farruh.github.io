@@ -7,7 +7,7 @@ tags:
   - category1
   - category2
 ---
-# Next-Level Conversations: LLM+VectorDB with Alibaba Cloud, Customizable and Cost-Efficient
+
 We recommend using ECS for the backend and front end. If the user will use open-source, the LLM (Large Language Model) can be used GPU-ECS…
 
 

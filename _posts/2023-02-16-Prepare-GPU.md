@@ -7,10 +7,8 @@ tags:
   - category1
   - category2
 ---
-# Prepare GPU-Container Environment on the Alibaba Cloud ECS Part 1
-Nowadays, we have an extremely high-speed changing live environment. Most changes come because of Artificial Intelligence (AI).
 
----
+Nowadays, we have an extremely high-speed changing live environment. Most changes come because of Artificial Intelligence (AI).
 
 ### Prepare GPU-Container Environment on the Alibaba Cloud ECS Part 1
 
