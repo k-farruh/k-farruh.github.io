@@ -1,12 +1,8 @@
 ---
-title: Computer Network Optimizing
+title: "Computer Network Optimizing"
 date: "2016-01-03"
 collection: portfolio
-image:
-  preview_only: true
-  width: "300"
-  path: /images/portfolio/l_cube_logo.png
-excerpt: Implemented a solution at L-Cube LLC to optimize the performance of their departmental network, enhancing communication efficiency and reliability.
+excerpt: "Implemented a solution at L-Cube LLC to optimize the performance of their departmental network, enhancing communication efficiency and reliability.<img src='/images/portfolio/l_cube_logo.png' width='300'>""
 ---
 
 ![L-Cube LLC](../../images/portfolio/l_cube_logo.png)
