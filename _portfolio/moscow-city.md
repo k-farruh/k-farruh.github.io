@@ -6,7 +6,13 @@ external_link: "http://domussapiens.ru/nashi-obekty/kommercheskie-obekty/moskva-
 collection: portfolio
 permalink: /portfolio/moscow-city/
 categories: []
-summary: Moscow City Project involves integrating smart systems across five different office building groups with varied requirements. The project includes computer programming for central control and night light adjustment, managing over 800 square meters with 15,000 signals from different controllers.<br/><img src='/images/portfolio/moscow_city.jpeg' width='400'>
+image:
+  caption: "L-Cube LLC logo"
+  focal_point: Smart
+  preview_only: true
+  width: "300"
+  path: /images/portfolio/moscow_city.jpeg
+summary: Moscow City Project involves integrating smart systems across five different office building groups with varied requirements. The project includes computer programming for central control and night light adjustment, managing over 800 square meters with 15,000 signals from different controllers.
 tags: [Smart City]
 ---
 

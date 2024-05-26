@@ -6,8 +6,8 @@ image:
   caption: "L-Cube LLC logo"
   focal_point: Smart
   preview_only: true
+  width: "300"
   path: /images/portfolio/l_cube_logo.png
-  width: "400"
 summary: Implemented a solution at L-Cube LLC to optimize the performance of their departmental network, enhancing communication efficiency and reliability.
 collection: portfolio
 permalink: /portfolio/l_cube/

@@ -4,7 +4,13 @@ author: Farruh Kushnazarov
 date: '2020-08-06'
 slug: tangren-face-recognition-system
 categories: []
-summary: Developed a face recognition system for smart building and parking projects in Xiamen city, China, resulting in the successful implementation of numerous projects.<br/><img src='/images/portfolio/tangrem.png' width='400'>
+image:
+  caption: "L-Cube LLC logo"
+  focal_point: Smart
+  preview_only: true
+  width: "300"
+  path: /images/portfolio/tengrem.png
+summary: Developed a face recognition system for smart building and parking projects in Xiamen city, China, resulting in the successful implementation of numerous projects.
 collection: portfolio
 permalink: /portfolio/tangren/
 tags: [Machine Learning, Face Recognition]
