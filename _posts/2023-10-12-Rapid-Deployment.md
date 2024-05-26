@@ -8,81 +8,10 @@ tags:
   - category2
 ---
 
-Rapid Deployment of AI Painting with WebUI on PAI-EAS using Alibaba Cloud
- \* {
- font-family: Georgia, Cambria, "Times New Roman", Times, serif;
- }
- html, body {
- margin: 0;
- padding: 0;
- }
- h1 {
- font-size: 50px;
- margin-bottom: 17px;
- color: #333;
- }
- h2 {
- font-size: 24px;
- line-height: 1.6;
- margin: 30px 0 0 0;
- margin-bottom: 18px;
- margin-top: 33px;
- color: #333;
- }
- h3 {
- font-size: 30px;
- margin: 10px 0 20px 0;
- color: #333;
- }
- header {
- width: 640px;
- margin: auto;
- }
- section {
- width: 640px;
- margin: auto;
- }
- section p {
- margin-bottom: 27px;
- font-size: 20px;
- line-height: 1.6;
- color: #333;
- }
- section img {
- max-width: 640px;
- }
- footer {
- padding: 0 20px;
- margin: 50px 0;
- text-align: center;
- font-size: 12px;
- }
- .aspectRatioPlaceholder {
- max-width: auto !important;
- max-height: auto !important;
- }
- .aspectRatioPlaceholder-fill {
- padding-bottom: 0 !important;
- }
- header,
- section[data-field=subtitle],
- section[data-field=description] {
- display: none;
- }
- 
+# Rapid Deployment of AI Painting with WebUI on PAI-EAS using Alibaba Cloud
 
-Rapid Deployment of AI Painting with WebUI on PAI-EAS using Alibaba Cloud
-=========================================================================
+Artificial Intelligence (AI) Painting or AI Generative Content (AIGC) is a fascinating field within artificial intelligence that focuses on creating visual content using advanced machine learning techniques. These areas of research and development have gained significant attention in recent years as they offer innovative and creative solutions for generating artwork, graphics, and other visual media. One of the foundation models for AIGC is the diffusion model.
 
-
-
-
-Introduction
-
-
-
-
----
 
 ### Rapid Deployment of AI Painting with WebUI on PAI-EAS using Alibaba Cloud
 
