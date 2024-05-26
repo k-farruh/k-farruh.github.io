@@ -2,7 +2,7 @@
 title: Speech Accent Detection
 date: '2020-08-06'
 collection: portfolio
-excerpt: "This project aims to classify the accents of English language speakers using audio recordings. By leveraging machine learning models such as FFNN, CNN, and LSTM, the system can accurately identify accents, aiding in language learning and accent improvement.<img src='/images/portfolio/speech_vovels.jpeg' width='300'>"
+excerpt: "This project aims to classify the accents of English language speakers using audio recordings. By leveraging machine learning models such as FFNN, CNN, and LSTM, the system can accurately identify accents, aiding in language learning and accent improvement.<br/><img src='/images/portfolio/speech_vovels.jpeg' width='300'>"
 ---
 
 ![Speech Accent Detection](../../images/portfolio/speech_vovels.jpeg)

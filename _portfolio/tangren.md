@@ -2,7 +2,7 @@
 title: Tangren Face Recognition System
 date: '2020-08-06'
 collection: portfolio
-excerpt: "Developed a face recognition system for smart building and parking projects in Xiamen city, China, resulting in the successful implementation of numerous projects.<img src='/images/portfolio/tengrem.png' width='300'>"
+excerpt: "Developed a face recognition system for smart building and parking projects in Xiamen city, China, resulting in the successful implementation of numerous projects.<br/><img src='/images/portfolio/tengrem.png' width='300'>"
 ---
 
 ![Tangren Face Recognition System](../../images/portfolio/tangrem.png)

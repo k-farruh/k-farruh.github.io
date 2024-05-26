@@ -2,7 +2,7 @@
 title: ""Container Number Recognition"
 date: '2019-02-06'
 collection: portfolio
-excerpt: "Developed an intelligent system for reading and identifying ISO 6346 container codes in logistics ports, enhancing access control and efficiency.<img src='/images/portfolio/cn1.jpg' width='300'>"
+excerpt: "Developed an intelligent system for reading and identifying ISO 6346 container codes in logistics ports, enhancing access control and efficiency.<br/><img src='/images/portfolio/cn1.jpg' width='300'>"
 ---
 
 ![Container Number Recognition](../../images/portfolio/cn1.jpg)
