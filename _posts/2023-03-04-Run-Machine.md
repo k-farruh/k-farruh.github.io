@@ -7,7 +7,7 @@ tags:
   - category1
   - category2
 ---
-# Run Machine Learning Model on Alibaba Cloud with Docker
+
 Previously, we prepared an ECS instance and Docker environment at the ECS instance here and here. Now it’s time to run the Machine Learning…
 
 ### Run Machine Learning Model on Alibaba Cloud with Docker
