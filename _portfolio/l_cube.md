@@ -1,19 +1,13 @@
 ---
 title: Computer Network Optimizing
-date: "2020-08-03T00:00:00Z"
-external_link: "https://l-cube.ru/"
+date: "2016-01-03"
+collection: portfolio
+permalink: /portfolio/l_cube/
 image:
-  caption: "L-Cube LLC logo"
-  focal_point: Smart
   preview_only: true
   width: "300"
   path: /images/portfolio/l_cube_logo.png
 summary: Implemented a solution at L-Cube LLC to optimize the performance of their departmental network, enhancing communication efficiency and reliability.
-collection: portfolio
-permalink: /portfolio/l_cube/
-tags:
-- Communication Network
-- Network Optimization
 ---
 
 ![L-Cube LLC](../../images/portfolio/l_cube_logo.png)

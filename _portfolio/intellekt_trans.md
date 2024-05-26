@@ -1,6 +1,6 @@
 ---
 title: Conference IntellektTrans
-date: "2020-08-03T00:00:00Z"
+date: "2009-11-03"
 external_link: "files/projects/intellekt_trans/intellect_trans.png"
 image:
   caption: "IntellektTrans logo"
@@ -8,15 +8,10 @@ image:
 collection: portfolio
 permalink: /posts/intellekt_trans/
 image:
-  caption: "L-Cube LLC logo"
-  focal_point: Smart
   preview_only: true
   width: "300"
   path: /images/portfolio/intellect_trans.png
 summary: Participated as an Organizing Committee member in the Intelligent Rail System Transportation Summit, contributing to the event's organization and discussions on intelligent rail transportation systems.
-tags:
-- Conference
-- Intelligent Transportation
 ---
 
 ![IntellektTrans](../../images/portfolio/intellect_trans.png)

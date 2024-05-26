@@ -1,17 +1,13 @@
 ---
 title: Data-Center Network Optimizing
-date: "2020-08-03T00:00:00Z"
+date: "2020-08-03"
 collection: portfolio
 permalink: /portfolio/emc_dell/
 image:
-  caption: "L-Cube LLC logo"
-  focal_point: Smart
   preview_only: true
   width: "300"
   path: /images/portfolio/emc_dell.png
 summary: Created a model for estimating the performance of communication protocols for channels with noise and simulated it using Matlab Communication Toolbox. The simulation results and implemented models on the EMC 2 data center were compared, showing deviations within 11%, confirming the research's consistency.
-tags:
-- Communication Network
 ---
 
 ![Data-Center Network Optimizing](../../images/portfolio/emc_dell.png)

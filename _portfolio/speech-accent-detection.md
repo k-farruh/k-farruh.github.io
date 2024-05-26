@@ -1,18 +1,13 @@
 ---
 title: Speech Accent Detection
-author: Farruh Kushnazarov
 date: '2020-08-06'
-external_link: https://github.com/k-farruh/speech-accent-detection
+collection: portfolio
+permalink: /portfolio/speech-accent-detection/
 image:
-  caption: "L-Cube LLC logo"
-  focal_point: Smart
   preview_only: true
   width: "300"
   path: /images/portfolio/speeach_vovels.jpeg
 summary: This project aims to classify the accents of English language speakers using audio recordings. By leveraging machine learning models such as FFNN, CNN, and LSTM, the system can accurately identify accents, aiding in language learning and accent improvement.
-collection: portfolio
-permalink: /portfolio/speech-accent-detection/
-tags: [Machine Learning, Accent Detection]
 ---
 
 ![Speech Accent Detection](../../images/portfolio/speech_vovels.jpeg)
