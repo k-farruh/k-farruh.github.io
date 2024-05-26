@@ -24,4 +24,4 @@ As an invited expert, I developed a **Face Recognition System** for smart buildi
 The Tangren Face Recognition System significantly improved security and efficiency in smart building and parking projects across Xiamen city, China. By accurately identifying individuals, the system enhanced access control and monitoring capabilities.
 
 ## Links
-- [Project Image](../files/projects/tangrem/tangrem.png) <!-- Replace with the actual image if available -->
+- [Project Image](../files/projects/tangrem/tangren.png) <!-- Replace with the actual image if available -->
