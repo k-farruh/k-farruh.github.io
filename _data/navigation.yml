@@ -2,6 +2,9 @@
 main:
   - title: "Publications"
     url: /publications/
+    
+  - title: "Projects"
+    url: /projects/
 
   - title: "Talks"
     url: /talks/    
@@ -14,9 +17,6 @@ main:
         
   - title: "Blog Posts"
     url: /posts/
-    
-  - title: "Projects"
-    url: /projects/
 
   - title: "CV"
     url: /cv/
