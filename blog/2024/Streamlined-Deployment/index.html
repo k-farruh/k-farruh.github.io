@@ -1,0 +1,250 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Streamlined Deployment and Integration of Large Language Models with PAI-EAS | Farruh Kushnazarov </title> <meta name="author" content="Farruh Kushnazarov"> <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. "> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?v=a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?v=f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/assets/css/scholar-icons.css?v=62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A4%96&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://k-farruh.github.io/blog/2024/Streamlined-Deployment/"> <script src="/assets/js/theme.js?v=5fea5159b787642c1bbc1f334d60f883"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Farruh</span> Kushnazarov </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/talks/">Talks </a> </li> <li class="nav-item "> <a class="nav-link" href="/videos/">Videos </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Streamlined Deployment and Integration of Large Language Models with PAI-EAS</h1> <p class="post-meta"> Created on January 15, 2024 </p> <p class="post-tags"> <a href="/blog/2024"> <i class="fa-solid fa-calendar fa-sm"></i> 2024 </a>   ·   <a href="/blog/tag/alibaba-cloud"> <i class="fa-solid fa-hashtag fa-sm"></i> Alibaba Cloud</a>   <a href="/blog/tag/ai"> <i class="fa-solid fa-hashtag fa-sm"></i> AI</a> </p> </header> <article class="post-content"> <div id="markdown-content"> <p>This article provides a comprehensive guide on deploying a large language model (LLM) application using the PAI-EAS (Platform for AI —…</p> <h3 id="streamlined-deployment-and-integration-of-large-language-models-withpai-eas"><strong>Streamlined Deployment and Integration of Large Language Models with PAI-EAS</strong></h3> <p>This article provides a comprehensive guide on deploying a large language model (LLM) application using the PAI-EAS (<a href="https://www.alibabacloud.com/product/machine-learning" rel="external nofollow noopener" target="_blank">Platform for AI</a>— <a href="https://www.alibabacloud.com/help/en/pai/user-guide/overview-2" rel="external nofollow noopener" target="_blank">Elastic Algorithm Service</a>). The deployment process supports both WebUI interface and API calls. Once deployed, the LLM application can be integrated with the LangChain framework to incorporate an enterprise knowledge base, and <a href="https://www.alibabacloud.com/blog/empowering-generative-ai-with-alibaba-cloud-pais-advanced-llm-and-langchain-features_600577" rel="external nofollow noopener" target="_blank">details are here</a>. PAI-EAS also offers inference acceleration engines like BladeLLM and vLLM to achieve high concurrency and low latency.</p> <p><img src="https://cdn-images-1.medium.com/max/800/1*76S245vDyBrIMcPr3Ema5A.png" alt="">### Background</p> <p>The growing popularity of big models such as GPT has made the deployment of LLM applications a sought-after service. There are numerous open-source big models available, each excelling in different specialties. PAI-EAS simplifies the deployment of these models, making it possible to launch an inference service in under five minutes.</p> <h3 id="deploying-easservices">Deploying EAS Services</h3> <p>To deploy an EAS service, follow these steps:</p> <ol> <li>Navigate to the PAI-EAS model online service page by signing in to the <a href="https://pai.console.aliyun.com/" rel="external nofollow noopener" target="_blank">PAI console</a>, selecting <strong>workspaces</strong>, and choosing <em>Model Deployment &gt; Model online services (EAS)</em>;</li> </ol> <p><img src="https://cdn-images-1.medium.com/max/800/0*halSxY8l-CAqvcSP.png" alt="">Click <em>Deploy Service</em> and configure key parameters such as the service name (e.g., llm_demo001), deployment method (<em>Deploy Web App by Using Image</em>), and <em>Select Image</em> (choose from the PAI platform image list).</p> <p><img src="https://cdn-images-1.medium.com/max/800/0*wJnIq7AUF6vy5nA7.png" alt=""><img src="https://cdn-images-1.medium.com/max/800/1*ei-VCoMy3w9loNIHOlsqQg.png" alt="">2. Set the run command to launch the desired large model, such as Qwen/Qwen-7B-Chat, for the Universal-7B parameter model.</p> <ol> <li>Select the appropriate resource group type and configuration, recommending GPU types like ml.gu7i.c16m60.1-gu30 for optimal performance.</li> </ol> <p><img src="https://cdn-images-1.medium.com/max/800/1*iQL5xaVn7M7M2ANbqzlCLg.png" alt="">4. Deploy the service and wait for the model deployment to complete.</p> <p>Creating an inference service will take some time, so let’s go to the next interesting session and start using the service itself.</p> <h3 id="starting-webui-for-model-inference">Starting WebUI for Model Inference</h3> <p>Once the service is deployed, use the WebUI interface to perform model inference verification. Enter a query like “Please provide a financial learning plan” and click send to interact with the model.</p> <p><img src="https://cdn-images-1.medium.com/max/800/0*oOBxxj0tsMlvBmzE.png" alt=""><img src="https://cdn-images-1.medium.com/max/800/0*hP6X4BsQdNlNfe7i.png" alt="">### Common Use-Cases</p> <p><strong>Switching Open-Source Models:</strong> PAI-EAS allows easy switching between different models, such as Tongyi Qianwen, Llama2, and chatglm, by updating the run commands and instance specifications accordingly.</p> <p><strong>Integrating Business Data with LangChain:</strong> LangChain is a framework that combines LLMs with external data. Select LangChain on the WebUI page to integrate your business data, and follow the prompts to upload and vectorize your knowledge base files.</p> <p><strong>Improving Inference Concurrency and Latency:</strong> Add the — backend=vllm parameter to the run command for higher concurrency and lower latency. This is compatible with certain models like qwen, llama2, and baichuan-13B.</p> <p><strong>Mounting Custom Models:</strong> To deploy a custom model, mount it using OSS by uploading the model and configuration files to your OSS bucket, updating the service with the appropriate OSS path, and running command parameters.</p> <h3 id="using-apis-for-model-inference">Using APIs for Model Inference</h3> <p><strong>Obtaining Service Access Address and Token:</strong> Access the service details page from the PAI-EAS model online service page to retrieve the service Token and access address.</p> <p><strong>HTTP Calls:</strong> Use standard HTTP or SSE methods to call the service by sending string or structured requests with the service Token and access address. You can use Python’s requests package for this purpose.</p> <p><strong>WebSocket Calls:</strong> WebSocket can maintain connections and conduct multiple rounds of conversation. Replace the http in the service access address with ws and control the streaming output with the use_stream_chat parameter.</p> <p>This guide outlines the entire process of deploying and using an LLM application with PAI-EAS, addressing common issues and providing solutions for seamless integration and improved performance. Whether you’re using the WebUI interface or calling APIs, this guide ensures a smooth deployment and utilization of LLM applications.</p> <h3 id="usage-of-langchain-to-integrate-with-businessneeds">Usage of LangChain to Integrate with Business Needs</h3> <ul> <li>LangChain features: LangChain is an open-source framework that allows AI developers to combine big language models (LLM) like GPT-4 with external data to achieve better performance and effectiveness with as few computing resources as possible.</li> <li>LangChain working principle: Divide a large data source, such as a 20-page PDF file, into blocks and embed them into VectorDB (Vector Database).</li> </ul> <p>LangChain first processes the input user data in natural language and stores it locally as a knowledge base for large models. Each inference user input will first find the answers similar to the input questions in the local knowledge base and input the knowledge base answers with the user input into a large model to generate customized answers based on the local knowledge base.</p> <ul> <li>Setting method: <ol> <li>In the upper-right corner of the WebUI page, select LangChain.</li> <li>In the lower-left corner of the WebUI page, follow the instructions on the interface to pull custom data. You can configure files in txt, md, docx, and pdf formats.</li> </ol> </li> </ul> <p><img src="https://cdn-images-1.medium.com/max/800/0*h0eIIrzvC-nUDPnk.png" alt="">For example, Upload a <a href="https://raw.githubusercontent.com/alibaba/EasyCV/master/README.md" rel="external nofollow noopener" target="_blank">README.md</a> file. In the lower-left corner, click knowledge base file vectorization. The following result indicates that the custom data is loaded.</p> <p><img src="https://cdn-images-1.medium.com/max/800/0*Q8iuVUqm4_ymF_8s.png" alt="">In the input box at the bottom of the WebUI page, enter questions related to business data for a conversation.</p> <p>For example, enter “What is EasyCV, and how can it be used? Use English to answer my question.” in the input box and click Send. The following figure shows the returned result.</p> <p><img src="https://cdn-images-1.medium.com/max/800/0*kVIlwSxQdjjfWNiV.png" alt="">### Ways of Improving Inference Concurrency and Reduce Latency</p> <p>With one click, the PAI-EAS inference acceleration engine that supports BladeLLM and vLLM can help you enjoy high concurrency and low latency.</p> <ol> <li>Click Update Service in the service actions column.</li> <li>In the model service information section, add the parameter — backend = vllm at the end of the run command parameter, and then click deploy. (Note that the current inference acceleration engine only supports the following models: qwen, llama2, baichuan-13B, and baichuan2–13B)</li> </ol> <p><img src="https://cdn-images-1.medium.com/max/800/0*UjJp285KBEOncGeD.png" alt="">1. Transformers, vllm, and other versions are upgraded. Due to the iterative update of the model, the earlier and the latest released models are incompatible with the version dependencies of transformers, vllm, and other toolkits. Users can freely upgrade toolkits such as transformers and <em>vllm</em> according to their actual needs.</p> <p><img src="https://cdn-images-1.medium.com/max/800/0*kciyZCsLRzrXOO9B.png" alt="">### How do I mount a custom model?</p> <p>To deploy a custom model, you can use OSS to mount the custom model. The procedure is as follows:</p> <ol> <li>Upload custom models and related configuration files to your OSS Bucket Directory. For more information about how to create buckets and upload files, see <a href="https://www.alibabacloud.com/help/en/oss/getting-started/console-quick-start" rel="external nofollow noopener" target="_blank">Create a bucket in the console</a> and <a href="https://www.alibabacloud.com/help/en/oss/getting-started/console-quick-start" rel="external nofollow noopener" target="_blank">Upload files in the console</a>.</li> </ol> <p>The sample model file to be prepared is as follows:</p> <p><img src="https://cdn-images-1.medium.com/max/800/0*oeIwcNcV5GI9izLv.png" alt="">The configuration file must include a config.json file, and you will need to set up the Config file in accordance with the model formats of <a href="https://huggingface.co/meta-llama/Llama-2-70b-chat-hf/tree/main" rel="external nofollow noopener" target="_blank">Huggingface</a> or <a href="https://www.modelscope.cn/models/modelscope/Llama-2-7b-chat-ms/files" rel="external nofollow noopener" target="_blank">Modelscope</a>. For details of the example file, please refer to <a href="https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/file-manage-files/zh-CN/20230724/mpdm/config.json" rel="external nofollow noopener" target="_blank">config.json</a>.</p> <ol> <li>Click Update Service in the service actions column.</li> <li>Configure the following parameters in the model service information section and click deploy.</li> </ol> <p><img src="https://cdn-images-1.medium.com/max/800/0*tUPaqBGL7v5E6jRm.png" alt=""><strong>Parameter</strong></p> <p><strong>Depaint</strong></p> <p>Model configuration</p> <p>Click Enter model configuration to configure the model.</p> <ul> <li>Select OSS mount for model configuration. Set the OSS path to the OSS path where the custom model file is located. For example, oss:// bucket-test/data-oss/.</li> <li>Mount path: set it to/data.</li> <li>Read-only: the switch is turned off.</li> </ul> <p>Run command</p> <p>Add the following parameters to the run command:</p> <ul> <li>— model-path: Set to/data. The configuration must be consistent with that of the Mount path.</li> <li>— model-type: the model type.</li> </ul> <p>For more information about how to configure running commands for different models, see <a href="https://medium.com/@k-farruh/mastering-generative-ai-run-llama-2-models-on-alibaba-clouds-pai-ca0c57fe4329" rel="external nofollow noopener" target="_blank">Mastering Generative AI: Run Llama 2 Models on the Alibaba Cloud’s PAI</a>.</p> <p><strong>Run command</strong></p> <p><img src="https://cdn-images-1.medium.com/max/800/1*5cHEiX2inauyMLH9lGQv3g.png" alt="">### API Interface for Model Reasoning</p> <ol> <li>Obtain the service access address and Token.</li> <li>Go to the PAI-EAS model online service page. For more information, see <a href="https://www.alibabacloud.com/help/en/pai/use-cases/5-minutes-to-use-the-pai-eas-one-click-deployment-llama2-webui" rel="external nofollow noopener" target="_blank">Deploy EAS services</a>.</li> <li>Click the target service name on this page to go to the service details page.</li> <li>In the basic information section, click View call information to obtain the service Token and access address on the public address call tab.</li> <li>Start the API for model inference.</li> </ol> <h3 id="use-http-to-callservices">Use HTTP to Call Services</h3> <ul> <li>Non-streaming call</li> </ul> <p>The client uses the standard HTTP format. When you call the curl command, you can send the following two types of requests:</p> <ul> <li>Send a String request</li> </ul> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl $host -H 'Authorization: $authorization' --data-binary @chatllm\_data.txt -v
+</code></pre></div></div> <p>Where: <strong>$authorization</strong> needs to be replaced with the service Token, <strong>$host</strong>: needs to be replaced with the service access address, <strong>chatllm_data.txt</strong>: This file contains the information.</p> <ul> <li>Send semi-structured requests</li> </ul> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl $host -H 'Authorization: $authorization' -H "Content-type: application/json" --data-binary @chatllm\_data.json -v -H "Connection: close"
+</code></pre></div></div> <p>Use the <strong>chatllm_data.json</strong> file to set inference parameters. The content format of the chatllm_data.json file is as follows:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{  
+ "max\_new\_tokens": 4096,  
+ "use\_stream\_chat": false,  
+ "prompt": "How to install it?",  
+ "system\_prompt": "Act like you are programmer with 5+ years of experience."  
+ "history": [  
+ [  
+ "Can you tell me what's the bladellm?",  
+ "BladeLLM is an framework for LLM serving, integrated with acceleration techniques like quantization, ai compilation, etc. , and supporting popular LLMs like OPT, Bloom, LLaMA, etc."  
+ ]  
+ ],  
+ "temperature": 0.8,  
+ "top\_k": 10,  
+ "top\_p": 0.8,  
+ "do\_sample": True,  
+ "use\_cache": True,  
+}
+</code></pre></div></div> <p>The parameters are described as follows. Add and delete them as appropriate.</p> <p><img src="https://cdn-images-1.medium.com/max/800/1*Z8DRiwkJQZRjZKjiQMuWUw.png" alt="">You can also implement your own client based on the Python requests package. The sample code is as follows:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import argparse  
+
+</code></pre></div></div> <p>Where:</p> <ul> <li>host: specifies the service access address.</li> <li>authorization: The service Token is configured.</li> <li>Streaming call</li> </ul> <p>The HTTP SSE method is used for streaming calls. Other settings are the same as those for non-streaming calls. For more information, see the following code:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import argparse  
+import json  
+from typing import Iterable, List  
+  
+import requests  
+  
+def clear\_line(n: int = 1) -&gt; None:  
+ LINE\_UP = '\033[1A'  
+ LINE\_CLEAR = '\x1b[2K'  
+ for \_ in range(n):  
+ print(LINE\_UP, end=LINE\_CLEAR, flush=True)  
+  
+def post\_http\_request(prompt: str,  
+ system\_prompt: str,  
+ history: list,  
+ host: str,  
+ authorization: str,  
+ max\_new\_tokens: int = 2048,  
+ temperature: float = 0.95,  
+ top\_k: int = 1,  
+ top\_p: float = 0.8,  
+ langchain: bool = False,  
+ use\_stream\_chat: bool = False) -&gt; requests.Response:  
+ headers = {  
+ "User-Agent": "Test Client",  
+ "Authorization": f"{authorization}"  
+ }  
+ if not history:  
+ history = [  
+ (  
+ "San Francisco is a",  
+ "city located in the state of California in the United States. \  
+ It is known for its iconic landmarks, such as the Golden Gate Bridge \  
+ and Alcatraz Island, as well as its vibrant culture, diverse population, \  
+ and tech industry. The city is also home to many famous companies and \  
+ startups, including Google, Apple, and Twitter."  
+ )  
+ ]  
+ pload = {  
+ "prompt": prompt,  
+ "system\_prompt": system\_prompt,  
+ "top\_k": top\_k,  
+ "top\_p": top\_p,  
+ "temperature": temperature,  
+ "max\_new\_tokens": max\_new\_tokens,  
+ "use\_stream\_chat": use\_stream\_chat,  
+ "history": history  
+ }  
+ if langchain:  
+ pload["langchain"] = langchain  
+ response = requests.post(host, headers=headers,  
+ json=pload, stream=use\_stream\_chat)  
+ return response  
+  
+def get\_streaming\_response(response: requests.Response) -&gt; Iterable[List[str]]:  
+ for chunk in response.iter\_lines(chunk\_size=8192,  
+ decode\_unicode=False,  
+ delimiter=b"\0"):  
+ if chunk:  
+ data = json.loads(chunk.decode("utf-8"))  
+ output = data["response"]  
+ history = data["history"]  
+ yield output, history  
+  
+if \_\_name\_\_ == "\_\_main\_\_":  
+ parser = argparse.ArgumentParser()  
+ parser.add\_argument("--top-k", type=int, default=4)  
+ parser.add\_argument("--top-p", type=float, default=0.8)  
+ parser.add\_argument("--max-new-tokens", type=int, default=2048)  
+ parser.add\_argument("--temperature", type=float, default=0.95)  
+ parser.add\_argument("--prompt", type=str, default="How can I get there?")  
+ parser.add\_argument("--langchain", action="store\_true")  
+ args = parser.parse\_args()  
+ prompt = args.prompt  
+ top\_k = args.top\_k  
+ top\_p = args.top\_p  
+ use\_stream\_chat = True  
+ temperature = args.temperature  
+ langchain = args.langchain  
+ max\_new\_tokens = args.max\_new\_tokens  
+ host = ""  
+ authorization = ""  
+ print(f"Prompt: {prompt!r}\n", flush=True)  
+ system\_prompt = "Act like you are programmer with \  
+ 5+ years of experience."  
+ history = []  
+ response = post\_http\_request(  
+ prompt, system\_prompt, history,  
+ host, authorization,  
+ max\_new\_tokens, temperature, top\_k, top\_p,  
+ langchain=langchain, use\_stream\_chat=use\_stream\_chat)  
+ for h, history in get\_streaming\_response(response):  
+ print(  
+ f" --- stream line: {h} \n --- history: {history}", flush=True)
+</code></pre></div></div> <p>Where:</p> <ul> <li>host: specifies the service access address.</li> <li>authorization: The service Token is configured.</li> </ul> <h3 id="use-websocket-to-callservices">Use WebSocket to Call Services</h3> <p>To better maintain user conversation information, you can also use WebSocket to maintain the connection with the service to complete one or more rounds of conversation. The code example is as follows:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import os  
+import time  
+import json  
+import struct  
+from multiprocessing import Process  
+import websocket  
+  
+round = 5  
+questions = 0  
+  
+def on\_message\_1(ws, message):  
+ if message == "&lt;EOS&gt;":  
+ print('pid-{} timestamp-({}) receives end message: {}'.format(os.getpid(),  
+ time.time(), message), flush=True)  
+ ws.send(struct.pack('!H', 1000), websocket.ABNF.OPCODE\_CLOSE)  
+ else:  
+ print("{}".format(time.time()))  
+ print('pid-{} timestamp-({}) --- message received: {}'.format(os.getpid(),  
+ time.time(), message), flush=True)  
+  
+def on\_message\_2(ws, message):  
+ global questions  
+ print('pid-{} --- message received: {}'.format(os.getpid(), message))  
+ # end the client-side streaming  
+ if message == "&lt;EOS&gt;":  
+ questions = questions + 1  
+ if questions == 5:  
+ ws.send(struct.pack('!H', 1000), websocket.ABNF.OPCODE\_CLOSE)  
+  
+def on\_message\_3(ws, message):  
+ print('pid-{} --- message received: {}'.format(os.getpid(), message))  
+ # end the client-side streaming  
+ ws.send(struct.pack('!H', 1000), websocket.ABNF.OPCODE\_CLOSE)  
+  
+def on\_error(ws, error):  
+ print('error happened: ', str(error))  
+  
+def on\_close(ws, a, b):  
+ print("### closed ###", a, b)  
+  
+def on\_pong(ws, pong):  
+ print('pong:', pong)  
+# stream chat validation test  
+def on\_open\_1(ws):  
+ print('Opening Websocket connection to the server ... ')  
+ params\_dict = {}  
+ params\_dict['prompt'] = """Show me a golang code example: """  
+ params\_dict['temperature'] = 0.9  
+ params\_dict['top\_p'] = 0.1  
+ params\_dict['top\_k'] = 30  
+ params\_dict['max\_new\_tokens'] = 2048  
+ params\_dict['do\_sample'] = True  
+ raw\_req = json.dumps(params\_dict, ensure\_ascii=False).encode('utf8')  
+ # raw\_req = f"""To open a Websocket connection to the server: """  
+ ws.send(raw\_req)  
+# end the client-side streaming  
+  
+# multi-round query validation test  
+def on\_open\_2(ws):  
+ global round  
+ print('Opening Websocket connection to the server ... ')  
+ params\_dict = {"max\_new\_tokens": 6144}  
+ params\_dict['temperature'] = 0.9  
+ params\_dict['top\_p'] = 0.1  
+ params\_dict['top\_k'] = 30  
+ params\_dict['use\_stream\_chat'] = True  
+ params\_dict['prompt'] = "您好！"  
+ params\_dict = {  
+ "system\_prompt":  
+ "Act like you are programmer with 5+ years of experience."  
+ }  
+ raw\_req = json.dumps(params\_dict, ensure\_ascii=False).encode('utf8')  
+ ws.send(raw\_req)  
+ params\_dict['prompt'] = "请使用Python，编写一个排序算法"  
+ raw\_req = json.dumps(params\_dict, ensure\_ascii=False).encode('utf8')  
+ ws.send(raw\_req)  
+ params\_dict['prompt'] = "请转写成java语言的实现"  
+ raw\_req = json.dumps(params\_dict, ensure\_ascii=False).encode('utf8')  
+ ws.send(raw\_req)  
+ params\_dict['prompt'] = "请介绍一下你自己？"  
+ raw\_req = json.dumps(params\_dict, ensure\_ascii=False).encode('utf8')  
+ ws.send(raw\_req)  
+ params\_dict['prompt'] = "请总结上述对话"  
+ raw\_req = json.dumps(params\_dict, ensure\_ascii=False).encode('utf8')  
+ ws.send(raw\_req)  
+  
+# Langchain validation test.  
+ def on\_open\_3(ws):  
+ global round  
+ print('Opening Websocket connection to the server ... ')  
+ params\_dict = {}  
+ # params\_dict['prompt'] = """To open a Websocket connection to the server: """  
+ params\_dict['prompt'] = """Can you tell me what's the MNN?"""  
+ params\_dict['temperature'] = 0.9  
+ params\_dict['top\_p'] = 0.1  
+ params\_dict['top\_k'] = 30  
+ params\_dict['max\_new\_tokens'] = 2048  
+ params\_dict['use\_stream\_chat'] = False  
+ params\_dict['langchain'] = True  
+ raw\_req = json.dumps(params\_dict, ensure\_ascii=False).encode('utf8')  
+ ws.send(raw\_req)  
+  
+authorization = ""  
+host = "ws://" + ""  
+  
+def single\_call(on\_open\_func, on\_message\_func, on\_clonse\_func=on\_close):  
+ ws = websocket.WebSocketApp(  
+ host,  
+ on\_open=on\_open\_func,  
+ on\_message=on\_message\_func,  
+ on\_error=on\_error,  
+ on\_pong=on\_pong,  
+ on\_close=on\_clonse\_func,  
+ header=[  
+ 'Authorization: ' + authorization],  
+ )  
+ # setup ping interval to keep long connection.  
+ ws.run\_forever(ping\_interval=2)  
+  
+if \_\_name\_\_ == "\_\_main\_\_":  
+ for i in range(5):  
+ p1 = Process(target=single\_call, args=(on\_open\_1, on\_message\_1))  
+ p2 = Process(target=single\_call, args=(on\_open\_2, on\_message\_2))  
+ p3 = Process(target=single\_call, args=(on\_open\_3, on\_message\_3))  
+ p1.start()  
+ p2.start()  
+ p3.start()  
+ p1.join()  
+ p2.join()  
+ p3.join()
+</code></pre></div></div> <p>Where:</p> <ul> <li>authorization: The service Token is configured.</li> <li>host: specifies the service access address. Replace the front-end http with ws.</li> <li>use_stream_chat: this parameter is used to control whether the client is streaming output. The default value is True, indicating that the server returns streaming data.</li> <li>See the on_open_2 function implementation method in the preceding sample code to implement multiple rounds of conversations.</li> </ul> <h3 id="conclusion">Conclusion</h3> <p>The article serves as an in-depth manual for deploying and integrating large language models (LLMs) using Alibaba Cloud’s Platform for AI — Elastic Algorithm Service (PAI-EAS). It addresses the increasing demand for accessible and efficient deployment of sophisticated LLM applications, such as those based on the foundation models’ architecture, emphasizing the capability to establish an inference service rapidly.</p> <p>Key points covered in the article include:</p> <ol> <li> <strong>PAI-EAS Deployment</strong>: The article explains the step-by-step deployment process of LLMs using PAI-EAS. It highlights the convenience of using both the WebUI interface and API calls, which cater to varying user preferences and technical expertise. It also specifies the necessary parameters and recommended resources for optimal model performance, facilitating a tailored setup for different LLM applications.</li> <li> <strong>Integration with LangChain</strong>: The integration with LangChain, an open-source framework, is outlined, showcasing how LLMs can be enhanced with a company’s knowledge base. This significantly improves the model’s output by grounding responses in enterprise-specific information, which is particularly useful for creating more contextual and relevant interactions in business applications.</li> <li> <strong>Inference Acceleration Engines</strong>: The article discusses the use of BladeLLM and vLLM acceleration engines provided by PAI-EAS to improve inference performance. These tools help users achieve higher concurrency and lower latency, which are critical factors in maintaining efficient, responsive LLM services.</li> <li> <strong>Custom Model Deployment</strong>: For users with custom model requirements, the guide explains the process of mounting custom models using OSS, detailing the steps to upload and configure models and their associated files. This flexibility allows businesses to deploy proprietary or specially configured models that fit their unique use cases.</li> <li> <strong>API Utilization for Inference</strong>: The article provides practical insights into obtaining service access credentials and making HTTP or WebSocket calls for model inference. This includes examples of making both streaming and non-streaming calls, thus offering a complete toolkit for developers to effectively integrate PAI-EAS LLM services into their applications.</li> </ol> <p>The content is rich with command examples, parameter descriptions, and model-specific recommendations that enable users to navigate the complexities of LLM deployment confidently. By covering common use cases and providing solutions to typical challenges, the article ensures that readers can not only deploy but also maximize the utility of LLM applications, aligning with their business objectives and technical requirements.</p> <p>This comprehensive tutorial embodies a critical resource for data scientists, AI developers, and IT professionals aiming to leverage the power of large language models within the Alibaba Cloud ecosystem. <a href="https://www.alibabacloud.com/solutions/generative-ai/contact-us" rel="external nofollow noopener" target="_blank">Contact Alibaba Cloud</a> to explore the world of generative AI and discover how it can transform your applications and business. It bridges the gap between advanced AI technologies and practical business applications, enabling organizations to innovate and extract value from cutting-edge language processing capabilities.</p> <p>By <a href="https://medium.com/@k-farruh" rel="external nofollow noopener" target="_blank">Dr. Farruh</a> on <a href="https://medium.com/p/bb8da7ec39bd" rel="external nofollow noopener" target="_blank">January 15, 2024</a>.</p> <p><a href="https://medium.com/@k-farruh/streamlined-deployment-and-integration-of-large-language-models-with-pai-eas-bb8da7ec39bd" rel="external nofollow noopener" target="_blank">Canonical link</a></p> <p>Exported from <a href="https://medium.com" rel="external nofollow noopener" target="_blank">Medium</a> on May 25, 2024.</p> </div> </article> <br> <hr> <br> <ul class="list-disc pl-8"></ul> <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2> <p class="mb-2">Here are some more articles you might like to read next:</p> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/" target="_blank" rel="external nofollow noopener">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</a> <svg width="1rem" height="1rem" viewbox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"> <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="https://k-farruh.medium.com/streamlined-deployment-and-integration-of-large-language-models-with-pai-eas-bb8da7ec39bd?source=rss-252c76dcb52c------2" target="_blank" rel="external nofollow noopener">Streamlined Deployment and Integration of Large Language Models with PAI-EAS</a> <svg width="1rem" height="1rem" viewbox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"> <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="https://k-farruh.medium.com/deploy-your-own-ai-chat-buddy-the-qwen-chat-model-deployment-with-huggingface-guide-4d0a68f3b670?source=rss-252c76dcb52c------2" target="_blank" rel="external nofollow noopener">Deploy Your Own AI Chat Buddy: The Qwen Chat Model Deployment with Hugging Face Guide</a> <svg width="1rem" height="1rem" viewbox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"> <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="https://k-farruh.medium.com/igniting-the-ai-revolution-a-journey-with-qwen-rag-and-langchain-de3944d454e9?source=rss-252c76dcb52c------2" target="_blank" rel="external nofollow noopener">Igniting the AI Revolution: A Journey with Qwen, RAG, and LangChain</a> <svg width="1rem" height="1rem" viewbox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"> <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="https://k-farruh.medium.com/genai-model-optimization-guide-to-fine-tuning-and-quantization-c85f93fe2664?source=rss-252c76dcb52c------2" target="_blank" rel="external nofollow noopener">GenAI Model Optimization: Guide to Fine-Tuning and Quantization</a> <svg width="1rem" height="1rem" viewbox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"> <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </li> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Farruh Kushnazarov. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. Last updated: April 18, 2026. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js?v=85ddb88934d28b74e78031fd54cf8308"></script> <script src="/assets/js/no_defer.js?v=2781658a0a2b13ed609542042a859126"></script> <script defer src="/assets/js/common.js?v=c15de51d4bb57887caa2c21988d97279"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script async src="https://www.googletagmanager.com/gtag/js?id=G-BBKS4ND9T2"></script> <script defer src="/assets/js/google-analytics-setup.js"></script> <script defer src="/assets/js/progress-bar.js?v=2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/assets/js/vanilla-back-to-top.min.js?v=f40d453793ff4f64e238e420181a1d17"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/js/search/ninja-keys.min.js?v=a3446f084dcaecc5f75aa1757d087dcf"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/js/search-setup.js?v=6c304f7b1992d4b60f7a07956e52f04a"></script> <script src="/assets/js/search-data.js"></script> <script src="/assets/js/shortcut-key.js?v=ccc841c459bfc0e64c1c2b5acd10df02"></script> </body> </html>
