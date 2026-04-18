@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: >
   <strong>Senior GenAI Architect</strong> · <a href="https://www.alibabacloud.com" target="_blank">Alibaba Cloud Intelligence</a> · Shanghai, China
