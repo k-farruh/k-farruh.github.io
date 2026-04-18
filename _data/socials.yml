@@ -2,18 +2,17 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/farruh_cv.pdf # path to your CV PDF file
-email: k.farruh@gmail.com # your email address
-# inspirehep_id: # Inspire HEP author ID
+email: farruh.kush@gmail.com # your email address
 rss_icon: true # comment this line to hide the RSS icon
-# scholar_userid: # add your Google Scholar ID # your Google Scholar ID
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://www.researchgate.net/favicon.ico # can be png, svg, jpg
+researchgate_profile:
+  logo: https://www.researchgate.net/favicon.ico
   title: ResearchGate
   url: https://www.researchgate.net/profile/Farruh-Kushnazarov
 github_username: k-farruh
 linkedin_username: k-farruh
 orcid_id: 0000-0003-0347-6234
-medium_username: "@k-farruh"
-youtube_id: "@farruhf8235"
+medium_username: k-farruh
+youtube_playlist:
+  logo: fa-brands fa-youtube
+  title: YouTube
+  url: https://youtube.com/playlist?list=PLSs7f2cJ9zZA_IxMjx7_SJC6TQUv3pBbN&si=I-CkRj-Z01Fh1S-t
